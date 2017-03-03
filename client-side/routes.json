@@ -1,0 +1,12 @@
+[
+  {
+    "path": "/",
+    "component": "./routes/Home",
+    "chunk": "main"
+  },
+  {
+    "path": "/error",
+    "component": "./routes/Error",
+    "chunk": "main"
+  }
+]

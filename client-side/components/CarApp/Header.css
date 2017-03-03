@@ -1,0 +1,147 @@
+.nav_header {
+    height: 56px;
+    display: inline-block;
+}
+
+.navHeaderBar{
+background-color: #000000;
+    position: relative;
+    display: inline-block;
+    height: 56px;
+    width:84.65vw;
+    margin-top: 0px;
+}
+.navHeaderBar:after {
+  background-color: inherit;
+  width: 30px;
+  height: 100px;
+  transform: skewY(105deg);
+  -webkit-transform: skewY(105deg);
+  -moz-transform: skewY(105deg);
+  position: absolute;
+  right: -29px;
+  top: -98px;
+  content: "";
+}
+.navHeaderBarMobile{
+background-color: #000000;
+    position: relative;
+    display: inline-block;
+    height: 56px;
+    width:70vw;
+    margin-top: 0px;
+}
+.navHeaderBarMobile:after {
+  background-color: inherit;
+  width: 30px;
+  height: 100px;
+  transform: skewY(105deg);
+  -webkit-transform: skewY(105deg);
+  -moz-transform: skewY(105deg);
+  position: absolute;
+  right: -29px;
+  top: -98px;
+  content: "";
+}
+
+.searchIcon{
+  color: #FFFFFF;
+  margin-left: 1.5vw;
+  margin-top: 24px;
+  margin-bottom: 16px;
+  padding-right: 24px;
+}
+
+.navIcon{
+   background-color: #F88200;
+  width: 5vw;
+  height: 56px;
+  display: inline-block;
+  position: relative;
+  transform-origin: bottom left;
+    -ms-transform: skew(-15deg, 0deg);
+    -webkit-transform: skew(-15deg, 0deg);
+    transform: skew(-15deg, 0deg);
+   left:0px;
+   top:-18px;
+}
+.navIconTime{
+   background-color: #F88200;
+  width: 4vw;
+  height: 56px;
+  display: inline-block;
+  position: relative;
+  transform-origin: bottom right;
+    -ms-transform: skewX(-15deg);
+    -webkit-transform: skewX(-15deg);
+    transform: skewX(-15deg);
+   left:0px;
+   top:-18px;
+}
+.navIconTime:after{   
+   z-index: -1;
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 8px;
+    display: block;
+    width: 4vw;
+    background-color:#F88200;
+     transform: skew(15deg, 0deg);
+   
+}
+
+
+.navIconMobile{
+   background-color: #F88200;
+  width: 15vw;
+  height: 56px;
+  display: inline-block;
+  position: relative;
+  border-right:1px solid grey;
+  transform-origin: bottom left;
+    -ms-transform: skew(-15deg, 0deg);
+    -webkit-transform: skew(-15deg, 0deg);
+    transform: skew(-15deg, 0deg);
+   left:0px;
+   top:-18px;
+}
+
+.navIconMobileLocation{
+   background-color: #F88200;
+  width: 15vw;
+  height: 56px;
+  display: inline-block;
+  position: relative;
+   top:-18px;
+   left:0vw;
+ 
+}
+.icon {
+  color: #FFFFFF;
+  margin-left: 1.5vw;
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+
+.iconMobile {
+  color: #FFFFFF;
+  margin-left: 5vw;
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+
+.searchCircle{
+    display: inline-block;
+    position: relative;
+    height: 56px;
+    z-index: 1;
+    vertical-align: top;
+}
+@media screen and (min-width: 780px)  and (max-width: 1280px){
+.navHeaderBar{
+  width:83.65vw;
+}
+
+}

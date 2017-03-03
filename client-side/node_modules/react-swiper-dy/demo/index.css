@@ -1,0 +1,45 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, del, dfn, em, img, ins, kbd, q, samp, small, strong, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, table, tbody, tfoot, thead, tr, th, td, article, aside, footer, header, nav, section {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  font-family: 'Roboto', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  -webkit-text-size-adjust: none;
+}
+
+a {
+  color: #14ADE5;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 34px;
+  margin: 50px auto 20px;
+  color: #212121;
+}
+
+h2 {
+  font-size: 14px;
+  color: #3c3c3c;
+  margin:10px;
+}
+
+.bg {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.info {
+  color: #222;
+  font-size: 18px;
+  text-align: center;
+  line-height: 1.5;
+}

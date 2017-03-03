@@ -1,0 +1,164 @@
+.carBody {
+    height: 432px;
+     margin-top: -18px;
+     }
+.imageDiv{
+   width: 71vw;
+  height: 432px;
+    position: relative;
+    display: inline-block;
+}
+.mainImage{
+    width: 71vw;
+    height: 432px;
+}
+.carInfoDesk{
+    background-color:#FFFFFF;
+    width:29vw;
+    height:432px;
+    position: absolute;
+    display: inline-block;
+     margin-top: 0px;
+}
+.carType{
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 48px;
+   margin-bottom: 32px;
+  margin-left: 40px;
+}
+.carTypeMobile{
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+  margin-top: 32px;
+  margin-left: 40px;
+  margin-bottom: 16px;
+}
+.captionHeader {
+  font-size: 14px;
+  font-weight: lighter;
+  color: #9B9B9B;
+  margin-bottom: 8px;
+}
+.captionHeaderVin {
+  font-size: 14px;
+  font-weight: lighter;
+  color: #9B9B9B;
+  margin-bottom: 12px;
+}
+.captionValue{
+  margin-bottom: 16px;
+  font-size: 14px;
+ font-weight: bold;
+}
+.captionValueMile{
+  margin-bottom: 32px;
+  font-size: 14px;
+ font-weight: bold;
+}
+.pullLeft{
+    margin-left: 40px;
+}
+
+.sotialReviews{
+  display: inline-block;
+}
+.social {
+  display: inline-block;
+  margin-right: 20px;
+}
+.socialColor{   
+  color: #3FB34A;
+  font-size: 14px;
+  text-align: center;
+  font-weight:bold;
+}
+.share {
+
+  font-size: 12px;
+  font-weight: lighter;
+  margin-bottom: 12px;
+}
+
+/*
+  mobile  layout
+*/
+
+.btnDiv{
+    background-color:#EFEFF2;
+    height:80px;
+}
+.btnCall{   
+    display: inline-block;
+    width: 100vw;
+    height: 60px;
+    margin-top: 10px;
+    padding-top: 20px;
+    background-color:#3FB34A;
+    text-align:center;
+    color:#FFFFFF;
+}
+.slideContainer{
+  position: absolute;
+    width: 150px;
+    height: 10px;
+    margin-left: 40vw;
+    margin-top: -48px;
+    z-index: 1;
+    display: inline-block;
+}
+.slideCircle {
+  border-radius: 50%;
+  border: 1px solid #FFFFFF;
+  width: 9px;
+  height: 9px;
+  display: inline-block;
+  margin-left: 10px;
+}
+.slideCircle:focus {
+  background-color: #FFFFFF;
+}
+.slideCircle:active {
+  background-color: #FFFFFF;
+}
+.slideCircleFill{
+  background-color: #FFFFFF;
+  border-radius: 50%;
+  border: 1px solid #FFFFFF;
+  width: 9px;
+  height: 9px;
+  display: inline-block;
+  margin-left: 10px;
+}
+.imageMobileContainer{
+  width: 100vw;
+  margin-top:-274px;
+  height: 256px;
+  display: block;
+  position: absolute;
+}
+.carDetailMobile {
+    
+  width:100vw;
+}
+.imageWrapMobile{
+  margin-top: 256px;
+  height: 256px;
+  display: block;
+  position: relative;
+  background-color: #FFFFFF;
+}
+.carRight {
+  display: inline-block;
+  margin-top: 88px;
+  position: relative;
+  margin-left: 50vw;
+}
+.carLeft{
+  position: absolute;
+  display: inline-block;
+}
+.vinNumberMobile{
+  margin-bottom: 24px;
+}

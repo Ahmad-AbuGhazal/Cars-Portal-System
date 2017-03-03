@@ -1,0 +1,29 @@
+.imageBar{
+ width: 16.66vw;
+  height: 200px;
+float:left;
+border: 1px solid #FFFFFF;
+overflow:hidden;
+
+}
+.imageBarRow {
+  width:100vw;
+  padding-top: 32px;
+
+}
+.imageBarMobile{
+  width: 100vw;
+  height: 256px;
+  margin-top: -260px;
+  display: block;
+  position: absolute;
+
+}
+.imageBarRow {
+  width:100vw;
+  padding-top: 32px;
+
+}
+.image{
+  
+}
