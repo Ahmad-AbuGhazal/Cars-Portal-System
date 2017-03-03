@@ -19,33 +19,37 @@ https://nodejs.org/en/download/
 
 # Server Side Setup
          
-         #database creation
+   1- database creation
 Open the folder C:\Program Files\MongoDB\Server\3.2\bin click on mongod.exe it will start new cmd and it will print waiting for connections on port 27017
 
 From the same folder open mongo.exe and type:  use webtask
 it will create the database, you can then connect to the database by this url  mongodb://localhost:27017/webtask
 
-       
-       # Create Collection to the webtask database
+        
+  2- Create Collection to the webtask database
 
 Open the cmd and change directory to the folder webtask/server-side/database and type:
+
        # node dbGenerator.js 
+
 
 # run the server-side 
 
-open the cmd and change directory to /webtask/server-side
-           # Create Collection to the webtask database
-      - type: npm insall
-      - then type : npm start
+Open the cmd and change directory to /webtask/server-side and type:
+           
+        # npm install
+        # npm start
+
+
 open http://localhost:3000/api/webtask/cars it will show all cars documents in the database
 
 
 # Client Side
 
-Open cmd and change the directory to /webtask/client-side 
-     #  
-       - type: npm insall
-      - then type : npm start
+Open the cmd and change the directory to /webtask/client-side  and tyoe:
+      
+        # npm install
+        # npm start
  
  open the http://localhost/3001 and it will start the application
 
