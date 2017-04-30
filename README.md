@@ -1,6 +1,7 @@
 # WebTask
 
-This project contains 2 main folder, server side and client side.
+This project aimed to provide cars detaits, the front end is react Js and the backend is Node Js, I used mongoDB as a database.
+I was responsible to implement the whole project in one week, The project is divided into server side and client side. 
 
 Setup the server-side
 ---------------------
